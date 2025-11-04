@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zoolar - Inicio</title>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <header class="encabezado">
+    <h1><img src="img/favicon.png" alt="Logo de Zoolar" class="logo-header"> Zoolar</h1>
+    <p>Todo para tu mascota</p>
+  </header>
+
+  <nav class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <section class="presentacion">
+    <h2>Bienvenido a Zoolar</h2>
+    <p>Somos tu tienda de confianza para consentir a tus mascotas. Descubrí nuestros productos y servicios pensados especialmente para ellos. Calidad, amor y dedicación en cada producto.</p>
+  </section>
+
+  <section class="carrousel" id="carrousel">
+    <button onclick="retroceder()" aria-label="Anterior">←</button>
+    <img id="imagen" src="img/1.jpeg" alt="Mascota feliz" />
+    <button onclick="avanzar()" aria-label="Siguiente">→</button>
+  </section>
+
+  <section class="caracteristicas">
+    <div class="caracteristica">
+      <h3>🎯 Calidad Premium</h3>
+      <p>Productos seleccionados cuidadosamente para garantizar la mejor calidad para tu mascota.</p>
+    </div>
+    <div class="caracteristica">
+      <h3>🚚 Envío Rápido</h3>
+      <p>Recibí tus productos en tiempo récord. Tu mascota no puede esperar.</p>
+    </div>
+    <div class="caracteristica">
+      <h3>💝 Atención Personalizada</h3>
+      <p>Asesoramiento profesional para elegir lo mejor para tu amigo peludo.</p>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <p>© 2025 Zoolar - Todos los derechos reservados</p>
+    <p>Contacto: contacto@zoolar.com</p>
+  </footer>
+
+  <script src="js/carrousel.js"></script>
+</body>
+</html>

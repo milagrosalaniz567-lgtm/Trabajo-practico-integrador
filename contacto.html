@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zoolar - Contacto</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <header class="encabezado">
+    <h1><img src="img/favicon.png" alt="Logo de Zoolar" class="logo-header"> Zoolar</h1>
+    <p>Contáctanos para más información</p>
+  </header>
+
+  <nav class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <section class="formulario">
+    <h2>Formulario de contacto</h2>
+    <form id="formulario">
+      <input
+        type="text"
+        name="nombre"
+        placeholder="Nombre completo"
+        required
+        maxlength="30"
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Correo electrónico"
+        required
+      />
+      <input
+        type="tel"
+        name="telefono"
+        placeholder="Teléfono (10 dígitos)"
+        required
+      />
+      <textarea
+        name="mensaje"
+        placeholder="Escribe tu mensaje aquí..."
+        required
+        maxlength="300"
+      ></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+    <div id="resultado"></div>
+  </section>
+
+  <footer class="pie">
+    <p>© 2025 Zoolar - Todos los derechos reservados</p>
+    <p>Contacto: contacto@zoolar.com</p>
+  </footer>
+
+  <script src="js/validaciones.js"></script>
+</body>
+</html>
